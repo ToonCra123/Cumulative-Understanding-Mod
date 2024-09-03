@@ -32,7 +32,7 @@ public class CUM
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-        
+        LOGGER.debug("Hello from common");
     }
 
     // Add the example block item to the building blocks tab
