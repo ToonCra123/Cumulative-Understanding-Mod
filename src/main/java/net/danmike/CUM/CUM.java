@@ -12,7 +12,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-// This is Dan Edit
+// This is Dan Edittt
 @Mod(CUM.MOD_ID)
 public class CUM
 {
