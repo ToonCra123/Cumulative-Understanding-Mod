@@ -1,6 +1,8 @@
 package net.danmike.CUM.items;
 
 import net.danmike.CUM.CUM;
+import net.danmike.CUM.blocks.BlockInit;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,6 +14,7 @@ public class ItemInit {
 
     public static final RegistryObject<Item> SHIT_ASS = ITEMS.register("shit_ass",
             () -> new Item(new Item.Properties()));
+
 
 
     public static void  register(IEventBus eventBus) {

@@ -18,6 +18,7 @@ public class CreativeTab {
             .icon(() -> new ItemStack(ItemInit.SHIT_ASS.get())).title(Component.translatable("creativetab.example_tab")).displayItems((display, output) -> {
                 output.accept(ItemInit.SHIT_ASS.get());
                 output.accept(BlockInit.SHIT_ASS_BLOCK.get());
+                output.accept(BlockInit.SIGMA_BLOCK.get());
             }).build());
 
     public static void register(IEventBus event) {
