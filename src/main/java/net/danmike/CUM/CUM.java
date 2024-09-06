@@ -2,6 +2,7 @@ package net.danmike.CUM;
 
 import com.mojang.logging.LogUtils;
 import net.danmike.CUM.blocks.BlockInit;
+import net.danmike.CUM.blocks.entities.BlockEntityInit;
 import net.danmike.CUM.items.ItemInit;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +31,7 @@ public class CUM
 
         ItemInit.register(eventBus);
         BlockInit.register(eventBus);
+        BlockEntityInit.register(eventBus);
         CreativeTab.register(eventBus);
 
 
